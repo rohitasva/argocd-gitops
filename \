@@ -8,6 +8,6 @@ metadata:
     github.com/project-slug: rohitasva/argocd-gitops
 spec:
   type: service
-  lifecycle: development
+  lifecycle: experimental
   owner: ADSK
-  dependsOn: ['component:backstage']
+  dependsOn: ['Api:backstage']
