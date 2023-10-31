@@ -8,5 +8,5 @@ metadata:
     github.com/project-slug: rohitasva/argocd-gitops
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: development
   owner: ADSK
