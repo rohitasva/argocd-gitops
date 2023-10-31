@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argocd-gitops
+  description: |
+    Backstage experiment with ArgoCD
+  annotations:
+    github.com/project-slug: rohitasva/argocd-gitops
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ADSK
