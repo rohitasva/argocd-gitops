@@ -6,7 +6,7 @@ metadata:
     Backstage experiment with ArgoCD
   annotations:
     github.com/project-slug: rohitasva/argocd-gitops
-    argocd/app-name: argocd-gitops-production
+    argocd/app-selector: argocd-gitops-production
 spec:
   type: service
   lifecycle: development
