@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: catalog-all
+  description: Collection of example backstage catalog
+spec:
+  target:
+    - ./domain.yaml
+    - ./system.yaml
+    - ./component.yaml
+    - ./resource.yaml

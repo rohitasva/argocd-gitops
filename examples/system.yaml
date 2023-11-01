@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadat:
+  name: hackathon-2023
+  description: Services part of hachathon
+  tags:
+    - hackathon
+spec:
+  owner: team-acs
+  domain: acs

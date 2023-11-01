@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: argocd-gitops-route53
+  description: Route 53 for argocd-gitops
+spec:
+  type: route53
+  owner: team-acs
+  system: hackathon-2023
