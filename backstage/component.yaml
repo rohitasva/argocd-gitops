@@ -13,3 +13,4 @@ spec:
   system: hackathon-2023
   dependsOn:
     - resource:backstage-route53
+    - component:argocd-gitops
