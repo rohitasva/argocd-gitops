@@ -6,6 +6,5 @@ metadata:
 spec:
   target:
     - ./domain.yaml
-    - ./system.yaml
-    - ./component.yaml
-    - ./resource.yaml
+    - ./group.yaml
+    - ./argocd/all.yaml

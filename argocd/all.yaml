@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: catalog-all
+  description: Argocd backstage catalog
+spec:
+  target:
+    - ./component.yaml
+    - ./resource.yaml
+    - ./system.yaml
+

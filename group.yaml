@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-acs
+spec:
+  type: team
+  profile:
+    displayName: ACS R&D
+  children: ["acs-si"]
