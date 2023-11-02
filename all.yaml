@@ -4,7 +4,7 @@ metadata:
   name: catalog-all
   description: Collection of example backstage catalog
 spec:
-  target:
+  targets:
     - ./domain.yaml
     - ./group.yaml
     - ./argocd/all.yaml
