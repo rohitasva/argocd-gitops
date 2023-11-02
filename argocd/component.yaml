@@ -9,6 +9,6 @@ metadata:
     argocd/app-selector: "app=argocd-gitops"
 spec:
   type: service
-  lifecycle: "production"
+  lifecycle: production
   owner: team-acs
   system: hackathon-2023
