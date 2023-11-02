@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: argocd-gitops
   description: |
-    Backstage experiment with ArgoCD
+    Argocd with gitops and backstage
   annotations:
     github.com/project-slug: rohitasva/argocd-gitops
     argocd/app-selector: "app=argocd-gitops"
