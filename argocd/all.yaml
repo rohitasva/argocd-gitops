@@ -4,7 +4,7 @@ metadata:
   name: catalog-all
   description: Argocd backstage catalog
 spec:
-  target:
+  targets:
     - ./component.yaml
     - ./resource.yaml
     - ./system.yaml
