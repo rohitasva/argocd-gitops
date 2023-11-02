@@ -5,5 +5,5 @@ metadata:
   description: Route 53 for argocd-gitops
 spec:
   type: route53
-  owner: team-acs
+  owner: team-si
   system: hackathon-2023
