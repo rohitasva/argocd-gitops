@@ -9,3 +9,5 @@ spec:
   lifecycle: production
   owner: team-si
   system: hackathon-2023
+  dependsOn:
+    - resource:backstage-route53
