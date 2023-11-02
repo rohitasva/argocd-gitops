@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: |
+    Backstage
+spec:
+  type: service
+  lifecycle: production
+  owner: team-si
+  system: hackathon-2023

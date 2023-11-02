@@ -9,3 +9,4 @@ spec:
     - ./group.yaml
     - ./system.yaml
     - ./argocd/all.yaml
+    - ./backstage/all.yaml

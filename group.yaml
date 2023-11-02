@@ -7,3 +7,15 @@ spec:
   profile:
     displayName: ACS R&D
   children: ["acs-si"]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-si
+spec:
+  type: team
+  profile:
+    displayName: ACS Service Infrastructure
+  children: []
+  parent: team-acs

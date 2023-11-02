@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: backstage-route53
+  description: Route 53 for backstage
+spec:
+  type: route53
+  owner: team-si
+  system: hackathon-2023
