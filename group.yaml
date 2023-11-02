@@ -6,7 +6,7 @@ spec:
   type: team
   profile:
     displayName: ACS R&D
-  children: ["acs-si"]
+  children: ["team-si"]
 
 ---
 apiVersion: backstage.io/v1alpha1
