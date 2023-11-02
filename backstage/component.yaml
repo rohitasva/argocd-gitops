@@ -4,6 +4,8 @@ metadata:
   name: backstage
   description: |
     Backstage
+  annotations:
+    argocd/app-name: backstage
 spec:
   type: service
   lifecycle: production
