@@ -13,4 +13,4 @@ spec:
   owner: team-si
   system: hackathon-2023
   dependsOn:
-    - resource:argocd-gitops
+    - resource:argocd-gitops-route53
