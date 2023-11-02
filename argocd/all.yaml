@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: catalog-all
+  name: argocd-all
   description: Argocd backstage catalog
 spec:
   targets:
